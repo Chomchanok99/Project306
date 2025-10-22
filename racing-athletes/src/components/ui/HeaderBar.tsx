@@ -2,7 +2,7 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import { User } from "lucide-react";
-import { palette } from "../../lib/theme";
+import { palette } from "../../lib/theme.ts";
 
 export default function HeaderBar() {
   const { pathname } = useLocation();

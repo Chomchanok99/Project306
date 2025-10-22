@@ -1,6 +1,6 @@
 // src/components/ui/Button.tsx
 import React from "react";
-import { palette } from "../../lib/theme";
+import { palette } from "../../lib/theme.ts";
 
 export default function Button({
   children, onClick, className = "", disabled,

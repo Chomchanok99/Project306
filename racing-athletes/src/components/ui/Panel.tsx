@@ -1,6 +1,6 @@
 // src/components/ui/Panel.tsx
 import React from "react";
-import { palette } from "../../lib/theme";
+import { palette } from "../../lib/theme.ts";
 
 interface PanelProps { children: React.ReactNode; className?: string; }
 export default function Panel({ children, className = "" }: PanelProps) {

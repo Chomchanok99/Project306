@@ -1,9 +1,9 @@
 // src/pages/Home.tsx
 import React from "react";
-import Panel from "../components/ui/Panel";
+import Panel from "../components/ui/Panel.tsx"
 import Button from "../components/ui/Button";
 import { useNavigate } from "react-router-dom";
-import { palette } from "../lib/theme";
+import { palette } from "../lib/theme.ts";
 
 export default function Home() {
   const nav = useNavigate();
@@ -21,7 +21,7 @@ export default function Home() {
             className="w-full max-h-[380px] object-cover rounded"
           />
           <div className="mt-6 flex justify-center">
-            <Button onClick={() => nav('/login')}>ข้อมูลนักกีฬา</Button>
+            <Button onClick={() => nav('/Login')}>ข้อมูลนักกีฬา</Button>
           </div>
         </div>
       </div>
